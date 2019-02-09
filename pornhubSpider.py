@@ -1,6 +1,7 @@
 import requests 
 import json
 import os
+import re
 from bs4 import BeautifulSoup as soup 
 link = 'https://www.pornhub.com'
 #获取某分类下任意页数的视频列表
